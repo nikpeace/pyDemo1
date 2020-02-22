@@ -1,9 +1,5 @@
-import math
-import sys
-from os import rename
+import requests
 
-# import requests
-
-name = input("Your name? ")
-print("Hello", name)
-
+r = requests.get("https://taskmanager.in")
+print(r.status_code)
+print(r.ok)
