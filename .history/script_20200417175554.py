@@ -1,5 +1,4 @@
-import sys
-import requests
+import request
 
 r = requests.get("https://taskmanager.in")
 print(r.status_code)

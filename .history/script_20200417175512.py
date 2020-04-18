@@ -1,4 +1,3 @@
-import sys
 import requests
 
 r = requests.get("https://taskmanager.in")
